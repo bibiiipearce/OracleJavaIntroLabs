@@ -10,7 +10,7 @@ String[] units = {IMPERIAL_UNITS[2], SI_UNITS[4], IMPERIAL_UNITS[1], IMPERIAL_UN
 for (int i = 0; i < values.length; i++) {
     String unit = units[i]; 
     for (String u : IMPERIAL_UNITS) {
-        if (u.equals.(unit)) {
+        if (u.equals(unit)) {
             switch(unit) {
                 case "ft": 
                     values[i] = values[i]*ft2m; 
